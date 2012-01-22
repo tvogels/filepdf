@@ -12,7 +12,7 @@ Add the following lines to your `deps` file:
 	   git=http://github.com/tvogels/filepdf.git
 	   target=filepdf
 
-And those to `app/`:
+And those to `app/autoload.php`:
 
 ```php
 $loader->registerPrefixes(array(
