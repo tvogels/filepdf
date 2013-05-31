@@ -1,0 +1,23 @@
+{
+    "name": "tvogels/fpdf",
+    "type": "library",
+    "description": "Horde PDF for use with Symfony",
+    "keywords": [],
+    "homepage": "http://github.com/tvogels",
+    "license": "BSD-3",
+    "version": "1.0",
+	"authors": [
+        {
+            "name": "Thijs Vogels",
+            "email": "t.vogels@me.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.4"
+    },
+    "autoload": {
+        "psr-0" : {
+            "Horde_" : "lib/"
+        }
+    }
+}
